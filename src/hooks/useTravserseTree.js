@@ -16,6 +16,7 @@ export default function userTraverseTree() {
     return { ...tree, items: latestNode };
   }
 
+  //TODO please make these two functionalities as well
   function deleteNode(params) {}
   function updateNode(params) {}
   return { insertNode, deleteNode, updateNode };
